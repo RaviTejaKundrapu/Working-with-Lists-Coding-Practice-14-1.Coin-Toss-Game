@@ -1,0 +1,111 @@
+/* Write your CSS here */
+.appContainer {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 84%;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 900;
+  color: #a35200;
+}
+.operation {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 800;
+  color: #334155;
+}
+.coinImage {
+  height: 120px;
+  width: 125px;
+}
+.tossCoin {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 900;
+  color: black;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+.countBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.totalCount {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  color: #334155;
+}
+.headsCount {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  color: #334155;
+}
+.tailsCount {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  color: #334155;
+}
+
+@media all and (min-width: 567px) {
+  .appContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardContainer {
+    width: 50%;
+  }
+  .heading {
+    font-size: 33px;
+  }
+  .operation {
+    font-size: 16px;
+  }
+  .coinImage {
+    height: 135px;
+    width: 135px;
+  }
+  .tossCoin {
+    font-size: 17px;
+  }
+  .countBoard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .totalCount {
+    font-size: 17px;
+    margin-right: 6px;
+  }
+  .headsCount {
+    font-size: 17px;
+    margin-right: 6px;
+  }
+  .tailsCount {
+    font-size: 17px;
+    margin-right: 6px;
+  }
+}
